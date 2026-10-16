@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caixas de Papelão Sob Medida e Pronta Entrega | Betta Embalagens</title>
+<meta name="description" content="Caixas de papelão ondulado sob medida ou pronta entrega, com ou sem impressão. Mais de 26 anos de mercado em São Paulo. Peça seu orçamento e receba resposta em até 12h.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100,62..125,600..900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<!-- GOOGLE ADS: cole aqui a tag global do site (gtag.js) com o ID da conta -->
+<style>
+:root{
+  --navy:#12304e; --navy2:#0c2036; --kraft:#b98a50; --kraft-l:#efe3d0;
+  --yellow:#f6e400; --green:#1fb85a; --green-d:#168a43; --ink:#1b2530; --muted:#55616e;
+  --bg:#ffffff; --soft:#f5f6f8; --line:#dfe3e8;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Source Sans 3',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55;font-size:17px}
+h1,h2,h3{font-family:'Archivo',sans-serif;font-stretch:112%;line-height:1.08;letter-spacing:-.01em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:700 17px 'Source Sans 3',sans-serif;padding:15px 26px;border-radius:8px;border:0;cursor:pointer;text-decoration:none;transition:transform .15s,background .15s}
+.btn:active{transform:translateY(1px)}
+.btn-y{background:var(--yellow);color:var(--navy2)}.btn-y:hover{background:#fff35c}
+.btn-g{background:var(--green);color:#fff}.btn-g:hover{background:var(--green-d)}
+.btn-o{border:2px solid #fff;color:#fff;background:transparent}.btn-o:hover{background:rgba(255,255,255,.12)}
+
+/* topo */
+.top{background:var(--navy2);color:#fff;font-size:15px}
+.top .wrap{display:flex;justify-content:space-between;gap:12px;padding-top:8px;padding-bottom:8px}
+.top a{text-decoration:none;font-weight:600}
+header.nav{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+header.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font:800 21px 'Archivo',sans-serif;font-stretch:115%;color:var(--navy)}
+.logo i{display:grid;place-items:center;width:38px;height:38px;border-radius:8px;background:var(--navy);color:var(--yellow);font:900 24px 'Archivo',sans-serif;font-style:normal}
+.nav nav{display:flex;gap:26px;align-items:center}
+.nav nav a:not(.btn){text-decoration:none;font-weight:600;color:var(--navy)}
+.nav .btn{padding:10px 18px;font-size:16px}
+
+/* hero */
+.hero{position:relative;background:var(--navy);color:#fff;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;
+  background:repeating-linear-gradient(90deg,rgba(255,255,255,.045) 0 14px,transparent 14px 28px),
+  repeating-radial-gradient(circle at 0 100%,transparent 0 13px,rgba(185,138,80,.16) 13px 14px);
+  background-size:auto,28px 28px}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:10px;background:var(--kraft)}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;padding-top:64px;padding-bottom:78px}
+.hero h1{font-size:clamp(34px,4.6vw,56px);font-weight:900;margin-bottom:18px}
+.hero p.lead{font-size:20px;max-width:34em;color:#d6e0ea;margin-bottom:26px}
+.ticks{list-style:none;display:grid;gap:10px;margin-bottom:30px}
+.ticks li{display:flex;gap:12px;font-weight:600;font-size:18px}
+.ticks svg{flex:none;margin-top:3px}
+.hero .cta-row{display:flex;gap:14px;flex-wrap:wrap}
+
+/* formulário */
+.card{background:#fff;color:var(--ink);border-radius:14px;padding:28px;box-shadow:0 24px 50px -18px rgba(0,0,0,.5);border-top:6px solid var(--yellow)}
+.card h2{font-size:24px;color:var(--navy);margin-bottom:4px}
+.card .sub{color:var(--muted);font-size:15px;margin-bottom:18px}
+.f{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.f .full{grid-column:1/-1}
+label{display:block;font-weight:700;font-size:14px;color:var(--navy);margin-bottom:4px}
+input,select,textarea{width:100%;font:inherit;font-size:16px;padding:11px 12px;border:1.5px solid #c5ccd4;border-radius:7px;background:#fff;color:var(--ink)}
+input:focus,select:focus,textarea:focus{border-color:var(--navy);outline:3px solid rgba(18,48,78,.18)}
+textarea{min-height:70px;resize:vertical}
+.card .btn{width:100%;margin-top:6px}
+.fine{font-size:13.5px;color:var(--muted);text-align:center;margin-top:10px}
+.ok{display:none;text-align:center;padding:18px 4px}
+.ok h3{color:var(--navy);font-size:24px;margin-bottom:8px}
+.sent .f,.sent .sub,.sent form>.btn,.sent .fine{display:none}.sent .ok{display:block}
+
+/* seções */
+section{padding:78px 0}
+.head{max-width:680px;margin-bottom:38px}
+.head h2{font-size:clamp(28px,3.4vw,40px);color:var(--navy);margin-bottom:12px}
+.head p{color:var(--muted);font-size:19px}
+.strip{background:var(--kraft-l);padding:0}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.strip div{padding:26px 20px;border-right:1px solid rgba(18,48,78,.15)}
+.strip div:last-child{border:0}
+.strip strong{display:block;font:800 21px 'Archivo',sans-serif;font-stretch:110%;color:var(--navy);margin-bottom:2px}
+.strip span{color:#4a4338;font-size:16px}
+
+.models{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.model{border:1.5px solid var(--line);border-radius:12px;padding:24px 22px;background:#fff;display:flex;flex-direction:column}
+.model svg{width:64px;height:64px;margin-bottom:16px}
+.model h3{font-size:19px;color:var(--navy);margin-bottom:4px}
+.model small{display:block;color:var(--kraft);font-weight:700;margin-bottom:10px;font-size:15px;color:#8a6232}
+.model p{color:var(--muted);font-size:16px;margin-bottom:18px;flex:1}
+.model a{font-weight:700;color:var(--navy);text-decoration-thickness:2px;text-underline-offset:4px}
+
+.steps{background:var(--soft)}
+.steps ol{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:26px;counter-reset:s}
+.steps li{counter-increment:s;position:relative;padding-top:58px}
+.steps li::before{content:counter(s);position:absolute;top:0;left:0;width:44px;height:44px;border-radius:50%;background:var(--navy);color:var(--yellow);display:grid;place-items:center;font:800 20px 'Archivo',sans-serif}
+.steps li::after{content:"";position:absolute;top:22px;left:56px;right:-14px;border-top:2px dashed #b3bcc7}
+.steps li:last-child::after{display:none}
+.steps h3{font-size:21px;color:var(--navy);margin-bottom:6px}
+.steps p{color:var(--muted)}
+
+.why{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.why ul{list-style:none;display:grid;gap:16px}
+.why li{display:flex;gap:14px;font-size:18px}
+.why li b{display:block;color:var(--navy)}
+.why .big{background:var(--navy);color:#fff;border-radius:14px;padding:40px;border-left:10px solid var(--kraft)}
+.big strong{display:block;font:900 clamp(60px,8vw,96px)/1 'Archivo',sans-serif;font-stretch:120%;color:var(--yellow)}
+.big p{font-size:20px;margin-top:8px;color:#d6e0ea}
+
+.pronta{background:var(--navy2);color:#fff;text-align:center;padding:64px 0}
+.pronta h2{font-size:clamp(28px,3.4vw,40px);margin-bottom:10px}
+.pronta p{color:#c4d0dc;max-width:560px;margin:0 auto 26px;font-size:19px}
+
+.faq{max-width:780px}
+details{border-bottom:1px solid var(--line);padding:18px 0}
+summary{font:700 19px 'Source Sans 3',sans-serif;color:var(--navy);cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:26px;line-height:1;color:var(--kraft);transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{margin-top:10px;color:var(--muted)}
+
+.contact{background:var(--navy);color:#fff}
+.contact .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.contact h2{font-size:32px;margin-bottom:14px}
+.contact p{color:#d0dae4;margin-bottom:8px}
+.contact .wa{display:grid;gap:12px;align-content:start}
+footer{background:var(--navy2);color:#9fb0c2;font-size:14.5px;padding:22px 0;text-align:center}
+
+/* pronta entrega */
+.pe{background:var(--soft)}
+.pe .box{background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px;margin-bottom:20px}
+.pe .box h3{font-size:19px;color:var(--navy);margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.pe .g{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pe .g .full{grid-column:1/-1}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:8px}
+table{width:100%;border-collapse:collapse;min-width:640px;font-size:16px}
+th{background:var(--soft);text-align:left;font-size:13.5px;color:var(--navy);padding:10px 12px;white-space:nowrap}
+td{padding:9px 12px;border-top:1px solid var(--line)}
+td.m,td.pk{color:var(--muted);font-size:15px;white-space:nowrap}
+td.sub{font-weight:700;color:var(--navy);text-align:right;white-space:nowrap}
+td input{width:92px;padding:8px 10px}
+.tot{display:flex;justify-content:flex-end;margin-top:16px}
+.tot div{background:var(--navy);color:#fff;border-radius:8px;padding:14px 26px;text-align:right}
+.tot small{display:block;font-size:13px;color:#c4d0dc}
+.tot strong{font:800 28px 'Archivo',sans-serif}
+.pe .acts{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:6px}
+#perr{color:#b3261e;font-weight:700;text-align:center;margin-bottom:12px;min-height:1.2em}
+@media(max-width:600px){.pe .g{grid-template-columns:1fr}.pe .box{padding:18px 14px}}
+.pg{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:26px}
+.pc{font:inherit;color:inherit;text-align:center;background:#fff;border:1.5px solid var(--line);border-radius:12px;padding:14px 14px 18px;cursor:pointer;display:flex;flex-direction:column;align-items:center;transition:border-color .15s,box-shadow .15s}
+.pc:hover{border-color:var(--navy);box-shadow:0 10px 24px -14px rgba(18,48,78,.5)}
+.pc .art{display:grid;place-items:center;width:100%;aspect-ratio:4/3;background:var(--kraft-l);border-radius:8px;margin-bottom:14px}
+.pc svg{width:82%;height:auto}
+.pc h3{font-size:19px;color:var(--navy);margin-bottom:4px}
+.pc p{color:var(--muted);font-size:15.5px;margin-bottom:8px}
+.pc .pr{font-weight:700;color:var(--navy);font-size:15.5px;margin-bottom:12px}
+.pc .go{margin-top:auto;font-weight:700;color:var(--navy);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}
+tr.hl td{background:#fff8bf;transition:background .3s}
+@media(max-width:960px){.pg{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.pg{gap:12px}.pc{padding:10px 10px 14px}.pc h3{font-size:17px}.pc p{display:none}}
+/* WhatsApp flutuante + barra mobile */
+.float{position:fixed;right:18px;bottom:18px;z-index:30;width:60px;height:60px;border-radius:50%;background:var(--green);display:grid;place-items:center;box-shadow:0 8px 22px rgba(0,0,0,.35)}
+.float:hover{background:var(--green-d)}
+.mbar{display:none}
+
+@media(max-width:960px){
+  .hero .wrap,.why,.contact .wrap{grid-template-columns:1fr}
+  .models{grid-template-columns:1fr 1fr}
+  .strip .wrap{grid-template-columns:1fr 1fr}
+  .strip div:nth-child(2){border-right:0}
+  .strip div:nth-child(-n+2){border-bottom:1px solid rgba(18,48,78,.15)}
+  .steps ol{grid-template-columns:1fr}.steps li::after{display:none}
+  .nav nav a:not(.btn){display:none}
+}
+@media(max-width:600px){
+  body{font-size:16px}.top .wrap span{display:none}.top .wrap{justify-content:center}
+  .hero .wrap{padding-top:40px;padding-bottom:56px}
+  section{padding:56px 0}.models{grid-template-columns:1fr}
+  .f{grid-template-columns:1fr}.card{padding:22px 18px}
+  .float{display:none}
+  .mbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:30;box-shadow:0 -6px 18px rgba(0,0,0,.2)}
+  .mbar a{padding:15px 8px;text-align:center;font-weight:700;text-decoration:none;color:#fff}
+  .mbar a:first-child{background:var(--green)}.mbar a:last-child{background:var(--navy2)}
+  footer{padding-bottom:78px}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<div class="top"><div class="wrap"><span>Embalagens de papelão ondulado em São Paulo • Resposta em até 12h</span><a href="tel:+551127379830">(11) 2737-9830</a></div></div>
+
+<header class="nav"><div class="wrap">
+  <a class="logo" href="#topo"><i>β</i>Betta Embalagens</a>
+  <nav><a href="#modelos">Modelos</a><a href="#pronta-entrega">Pronta entrega</a><a href="#como">Como funciona</a><a href="#faq">Dúvidas</a><a class="btn btn-y" href="#orcamento">Pedir orçamento</a></nav>
+</div></header>
+
+<main id="topo">
+<div class="hero"><div class="wrap">
+  <div>
+    <h1>Caixas de papelão sob medida, no tamanho exato do seu produto</h1>
+    <p class="lead">Fabricamos embalagens de papelão ondulado com ou sem impressão, sob medida ou a pronta entrega. Informe as medidas e receba seu orçamento em até 12 horas.</p>
+    <ul class="ticks">
+      <li><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#f6e400"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#0c2036" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Mais de 26 anos de mercado</li>
+      <li><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#f6e400"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#0c2036" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Modelos de pronta entrega, sem pedido mínimo alto</li>
+      <li><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#f6e400"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#0c2036" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Equipe que acompanha do pedido até a entrega</li>
+    </ul>
+    <div class="cta-row">
+      <a class="btn btn-g" href="#" data-wa="Olá! Vim pelo site e gostaria de um orçamento de caixas.">Falar no WhatsApp</a>
+      <a class="btn btn-o" href="#modelos">Ver modelos</a>
+    </div>
+  </div>
+
+  <div class="card" id="orcamento">
+    <h2>Peça seu orçamento</h2>
+    <p class="sub">Resposta em até 12h. Leva menos de 1 minuto.</p>
+    <form id="form" novalidate>
+      <div class="f">
+        <div><label for="nome">Nome</label><input id="nome" autocomplete="given-name" required></div>
+        <div><label for="sobrenome">Sobrenome</label><input id="sobrenome" autocomplete="family-name"></div>
+        <div class="full"><label for="empresa">Nome da empresa</label><input id="empresa" autocomplete="organization" required></div>
+        <div><label for="tel">WhatsApp</label><input id="tel" type="tel" inputmode="tel" autocomplete="tel" placeholder="(11) 90000-0000" required></div>
+        <div><label for="email">E-mail</label><input id="email" type="email" autocomplete="email" required></div>
+        <div class="full"><label for="tipo">Tipo de embalagem</label>
+          <select id="tipo" required><option value="">Selecione</option><option>Caixa tradicional (maleta)</option><option>Caixa corte e vinco (sedex)</option><option>Acessórios, colmeia e tabuleiros</option><option>Caixa tampa e fundo</option><option>Não sei, preciso de ajuda</option></select></div>
+        <div><label for="qtd">Quantidade</label><input id="qtd" inputmode="numeric" placeholder="Ex.: 500" required></div>
+        <div><label for="dim">Medidas (cm)</label><input id="dim" placeholder="Altura x largura x comprimento" required></div>
+        <div class="full"><label for="obs">Observações <span style="font-weight:400">(opcional)</span></label><textarea id="obs" placeholder="Com impressão? Prazo? Peso do produto?"></textarea></div>
+      </div>
+      <button class="btn btn-y" type="submit">Enviar pedido de orçamento</button>
+      <p class="fine">Seus dados são usados apenas para retornar este orçamento.</p>
+    </form>
+    <div class="ok" role="status"><h3>Pedido recebido!</h3><p>Nossa equipe retorna em até 12 horas. Se preferir agilizar, finalize pelo WhatsApp:</p><p style="margin-top:14px"><a class="btn btn-g" id="okwa" href="#" target="_blank" rel="noopener">Continuar no WhatsApp</a></p><p class="fine">Enviamos também para o e-mail da equipe: <a id="okmail" href="#">enviar por e-mail</a></p></div>
+  </div>
+</div></div>
+
+<div class="strip"><div class="wrap">
+  <div><strong>26+ anos</strong><span>de mercado</span></div>
+  <div><strong>Sob medida</strong><span>no seu tamanho exato</span></div>
+  <div><strong>Pronta entrega</strong><span>modelos em estoque</span></div>
+  <div><strong>Com ou sem</strong><span>impressão personalizada</span></div>
+</div></div>
+
+<section id="modelos"><div class="wrap">
+  <div class="head"><h2>O modelo certo para o seu produto</h2><p>Trabalhamos com caixas de papelão ondulado em diversos modelos. Não sabe qual escolher? Conte o que você envia e indicamos.</p></div>
+  <div class="models">
+    <article class="model">
+      <svg viewBox="0 0 64 64" fill="none" stroke="#12304e" stroke-width="2.5" stroke-linejoin="round"><path d="M8 22l24-10 24 10v26L32 58 8 48z" fill="#efe3d0"/><path d="M8 22l24 10 24-10M32 32v26"/><path d="M20 17l24 10" stroke="#b98a50"/></svg>
+      <h3>Caixa tradicional</h3><small>Modelo maleta</small>
+      <p>A mais usada para e-commerce, estoque e transporte. Fecha com fita e se adapta a qualquer medida.</p>
+      <a href="#orcamento" data-tipo="Caixa tradicional (maleta)">Orçar este modelo</a>
+    </article>
+    <article class="model">
+      <svg viewBox="0 0 64 64" fill="none" stroke="#12304e" stroke-width="2.5" stroke-linejoin="round"><path d="M6 34l26-12 26 12-26 14z" fill="#efe3d0"/><path d="M6 34v8l26 14 26-14v-8M32 48v8"/><path d="M6 34L18 18l14 4" stroke="#b98a50"/></svg>
+      <h3>Corte e vinco</h3><small>Modelo sedex</small>
+      <p>Montagem rápida, sem fita. Boa para kits, envios e produtos que pedem apresentação.</p>
+      <a href="#orcamento" data-tipo="Caixa corte e vinco (sedex)">Orçar este modelo</a>
+    </article>
+    <article class="model">
+      <svg viewBox="0 0 64 64" fill="none" stroke="#12304e" stroke-width="2.5" stroke-linejoin="round"><rect x="8" y="16" width="48" height="36" rx="2" fill="#efe3d0"/><path d="M8 28h48M8 40h48M22 16v36M36 16v36M50 16v36" stroke="#b98a50"/></svg>
+      <h3>Colmeia e tabuleiros</h3><small>Acessórios</small>
+      <p>Divisórias que separam e protegem garrafas, potes e itens frágeis dentro da caixa.</p>
+      <a href="#orcamento" data-tipo="Acessórios, colmeia e tabuleiros">Orçar este modelo</a>
+    </article>
+    <article class="model">
+      <svg viewBox="0 0 64 64" fill="none" stroke="#12304e" stroke-width="2.5" stroke-linejoin="round"><path d="M6 28h52v8H6z" fill="#b98a50" fill-opacity=".45"/><path d="M10 36v16h44V36" fill="#efe3d0"/><path d="M28 42h8"/></svg>
+      <h3>Tampa e fundo</h3><small>Caixa em duas peças</small>
+      <p>Abre e fecha várias vezes. Indicada para arquivo, organização e produtos de maior valor.</p>
+      <a href="#orcamento" data-tipo="Caixa tampa e fundo">Orçar este modelo</a>
+    </article>
+  </div>
+</div></section>
+
+<section class="steps" id="como"><div class="wrap">
+  <div class="head"><h2>Como pedir sua caixa</h2><p>Do orçamento à entrega, você fala com uma equipe só.</p></div>
+  <ol>
+    <li><h3>Envie as medidas</h3><p>Preencha o formulário com modelo, quantidade e dimensões. Se tiver dúvida, chame no WhatsApp.</p></li>
+    <li><h3>Receba o orçamento</h3><p>Retornamos em até 12 horas com valor e prazo, para embalagem com ou sem impressão.</p></li>
+    <li><h3>Aprove e receba</h3><p>Nossa equipe acompanha a produção ou a separação da pronta entrega até a sua porta.</p></li>
+  </ol>
+</div></section>
+
+<section><div class="wrap why">
+  <div class="big"><strong>26+</strong><p>anos fabricando embalagens de papelão em São Paulo.</p></div>
+  <div>
+    <div class="head" style="margin-bottom:24px"><h2>Por que escolher a Betta</h2></div>
+    <ul>
+      <li><svg width="26" height="26" viewBox="0 0 24 24" style="flex:none"><circle cx="12" cy="12" r="12" fill="#1fb85a"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>Pronta entrega e sob medida</b>Você escolhe entre ter a caixa rápido ou no tamanho exato.</div></li>
+      <li><svg width="26" height="26" viewBox="0 0 24 24" style="flex:none"><circle cx="12" cy="12" r="12" fill="#1fb85a"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>Vários modelos</b>Maleta, corte e vinco, colmeia, tampa e fundo.</div></li>
+      <li><svg width="26" height="26" viewBox="0 0 24 24" style="flex:none"><circle cx="12" cy="12" r="12" fill="#1fb85a"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>Equipe especializada</b>Atendimento do pedido até a entrega.</div></li>
+      <li><svg width="26" height="26" viewBox="0 0 24 24" style="flex:none"><circle cx="12" cy="12" r="12" fill="#1fb85a"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>Com ou sem impressão</b>Leve sua marca na embalagem, se quiser.</div></li>
+    </ul>
+  </div>
+</div></section>
+
+<div class="pronta"><div class="wrap">
+  <h2>Precisa de caixas para já?</h2>
+  <p>Temos modelos prontos para entrega imediata, sem espera e sem pedido mínimo alto.</p>
+  <a class="btn btn-y" href="#pronta-entrega">Ver modelos e fazer pedido</a>
+</div></div>
+
+<section class="pe" id="pronta-entrega"><div class="wrap">
+  <div class="head"><h2>Pronta entrega: escolha, preencha e envie seu pedido</h2><p>Caixas disponíveis para envio imediato. Informe a quantidade desejada de cada modelo e veja o valor estimado na hora.</p></div>
+  <div class="pg" id="pgrid"></div>
+  <div class="box"><h3>Dados do cliente</h3><div class="g">
+    <div><label for="p-nome">Nome *</label><input id="p-nome" autocomplete="name" placeholder="Seu nome completo"></div>
+    <div><label for="p-email">E-mail</label><input id="p-email" type="email" autocomplete="email" placeholder="email@exemplo.com"></div>
+    <div><label for="p-tel">Telefone / WhatsApp *</label><input id="p-tel" type="tel" inputmode="tel" autocomplete="tel" placeholder="(11) 90000-0000"></div>
+    <div><label for="p-doc">CPF ou CNPJ</label><input id="p-doc" inputmode="numeric" placeholder="Somente números"></div>
+  </div></div>
+  <div class="box"><h3>Endereço de entrega</h3><div class="g">
+    <div class="full"><label for="p-rua">Rua / logradouro *</label><input id="p-rua" autocomplete="street-address" placeholder="Rua, número, complemento"></div>
+    <div><label for="p-bairro">Bairro</label><input id="p-bairro"></div>
+    <div><label for="p-cidade">Cidade *</label><input id="p-cidade" autocomplete="address-level2"></div>
+    <div><label for="p-uf">Estado *</label><input id="p-uf" maxlength="2" placeholder="UF" autocomplete="address-level1"></div>
+    <div><label for="p-cep">CEP *</label><input id="p-cep" inputmode="numeric" autocomplete="postal-code" placeholder="00000-000"></div>
+  </div></div>
+  <div class="box"><h3>Selecione os produtos</h3>
+    <div class="tw"><table><thead><tr><th>Produto</th><th>Medidas</th><th>Preço un.</th><th>Un./pacote</th><th>Qtd. (un.)</th><th style="text-align:right">Subtotal</th></tr></thead><tbody id="ptb"></tbody></table></div>
+    <div class="tot"><div><small>Valor total estimado</small><strong id="ptot">R$ 0,00</strong></div></div>
+  </div>
+  <p id="perr" role="alert"></p>
+  <div class="acts"><button class="btn btn-g" type="button" id="pwa">Enviar pedido pelo WhatsApp</button><button class="btn btn-y" type="button" id="pmail">Enviar pedido por e-mail</button></div>
+  <p class="fine">As quantidades seguem os pacotes indicados. Valores estimados; a equipe confirma o pedido com você.</p>
+</div></section>
+
+<section id="faq"><div class="wrap faq">
+  <div class="head"><h2>Dúvidas frequentes</h2></div>
+  <details><summary>Em quanto tempo recebo o orçamento?</summary><p>Retornamos em até 12 horas após o envio do formulário.</p></details>
+  <details><summary>Vocês fazem caixa no tamanho que eu preciso?</summary><p>Sim. Trabalhamos sob medida: basta informar altura, largura e comprimento em centímetros.</p></details>
+  <details><summary>Existe pedido mínimo?</summary><p>Temos modelos de pronta entrega sem pedido mínimo alto. Para sob medida, informe a quantidade desejada e passamos as condições.</p></details>
+  <details><summary>Posso ter minha marca impressa na caixa?</summary><p>Sim. Fazemos embalagens com ou sem impressão. Conte no formulário o que você precisa.</p></details>
+  <details><summary>Não sei qual modelo escolher. E agora?</summary><p>Escolha "Não sei, preciso de ajuda" no formulário ou chame no WhatsApp. Nossa equipe indica o modelo ideal.</p></details>
+</div></section>
+
+<section class="contact"><div class="wrap">
+  <div><h2>Prefere falar agora?</h2><p>Nossa equipe está disponível para atender.</p><br>
+    <p><strong>BETTA IND. COM. DE EMBALAGENS EIRELI</strong></p>
+    <p>Av. Cachoeira Paulista, 133 – Cidade Patriarca<br>São Paulo – SP – CEP 03551-000</p>
+    <p>Fone: <a href="tel:+551127379830">(11) 2737-9830</a></p>
+    <p>E-mail: <a href="mailto:ritaluchetti@bettaembalagens.com.br">ritaluchetti@bettaembalagens.com.br</a></p></div>
+  <div class="wa">
+    <a class="btn btn-g" href="#" data-wa="Olá, Edson! Vim pelo site e gostaria de um orçamento." data-who="edson">Fale com o Edson</a>
+    <a class="btn btn-g" href="#" data-wa="Olá, Rita! Vim pelo site e gostaria de um orçamento." data-who="rita">Fale com a Rita</a>
+    <a class="btn btn-o" href="#orcamento">Preencher o formulário</a>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">© <span id="ano"></span> Betta Embalagens. Todos os direitos reservados.</div></footer>
+
+<a class="float" href="#" data-wa="Olá! Vim pelo site e gostaria de um orçamento." aria-label="Falar no WhatsApp"><svg width="32" height="32" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.2 14c-.2.6-1.300 1.200-1.800 1.200-.5.100-1 .2-3.300-.7-2.800-1.100-4.600-4-4.700-4.200-.1-.2-1.100-1.500-1.100-2.800s.7-2 1-2.300c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 2c.1.200.1.400 0 .5l-.4.600c-.1.200-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.100 1 2 1.300 2.300 1.400.3.100.4.100.6-.1l.8-1c.2-.3.400-.2.600-.1l1.900.9c.3.100.5.200.5.400.100.200.100.800-.1 1.400z"/></svg></a>
+<div class="mbar"><a href="#" data-wa="Olá! Vim pelo site e gostaria de um orçamento.">WhatsApp</a><a href="#orcamento">Pedir orçamento</a></div>
+
+<script>
+/* ===== CONFIGURAÇÃO ===== */
+// Número do WhatsApp (DDI 55 + DDD + número), usado em todos os botões.
+var WA = { default:"5511988611523", edson:"5511992334910", rita:"5511988611523" };
+
+var EMAIL="ritaluchetti@bettaembalagens.com.br"; // recebe orçamentos e pedidos
+function track(name){ // Google Ads: troque pelo ID/rótulo de conversão da conta
+  if(window.gtag){ gtag('event','conversion',{send_to:'AW-XXXXXXXXX/XXXXXXXXXXX', event_name:name}); }
+}
+function waLink(who,msg){ return "https://wa.me/"+(WA[who]||WA.default)+"?text="+encodeURIComponent(msg); }
+
+document.querySelectorAll('[data-wa]').forEach(function(a){
+  a.addEventListener('click',function(e){
+    e.preventDefault(); track('whatsapp_click');
+    window.open(waLink(a.dataset.who,a.dataset.wa),'_blank','noopener');
+  });
+});
+document.querySelectorAll('[data-tipo]').forEach(function(a){
+  a.addEventListener('click',function(){ document.getElementById('tipo').value=a.dataset.tipo; });
+});
+
+var form=document.getElementById('form');
+form.addEventListener('submit',function(e){
+  e.preventDefault();
+  var ids=['nome','empresa','tel','email','tipo','qtd','dim'], bad=null;
+  ids.forEach(function(id){ var el=document.getElementById(id); el.style.borderColor='';
+    if(!el.value.trim()||(id==='email'&&!/^\S+@\S+\.\S+$/.test(el.value))){ el.style.borderColor='#c0392b'; bad=bad||el; } });
+  if(bad){ bad.focus(); return; }
+  var v=function(i){return document.getElementById(i).value.trim();};
+  var msg="Olá! Pedido de orçamento pelo site:\n"+
+    "Nome: "+v('nome')+" "+v('sobrenome')+"\nEmpresa: "+v('empresa')+"\nTelefone: "+v('tel')+"\nE-mail: "+v('email')+
+    "\nEmbalagem: "+v('tipo')+"\nQuantidade: "+v('qtd')+"\nMedidas (cm): "+v('dim')+(v('obs')?"\nObservações: "+v('obs'):"");
+  /* PARA RECEBER POR E-MAIL/CRM: envie os dados aqui com fetch() para o seu endpoint (Formspree, Make, Zapier, etc.) */
+  track('formulario_orcamento');
+  document.getElementById('okwa').href=waLink('default',msg);
+  document.getElementById('okmail').href='mailto:'+EMAIL+'?subject='+encodeURIComponent('Pedido de orçamento - site')+'&body='+encodeURIComponent(msg);
+  document.querySelector('.card').classList.add('sent');
+});
+/* ===== PRONTA ENTREGA ===== */
+var PROD=[["Caixa Sedex nº 0","17×11×7",1.5,50],["Caixa Sedex nº 1","20×14×8",2,50],["Caixa Sedex nº 2","27×18×9",2.8,50],["Caixa Sedex nº 3","30×20×15",3.8,25],["Caixa Sedex nº 4","33×23×16",4.5,25],["Caixa Sedex nº 5","40×30×20",6.5,25],["Caixa Arquivo Morto","36×25×13",3.5,25],["Caixa Maleta Pequena (Onda Simples)","30×20×10",3.2,25],["Caixa Maleta Média (Onda Simples)","40×30×15",5,25],["Caixa Maleta Grande (Onda Dupla)","50×35×25",8.5,15],["Caixa Maleta Extra Grande (Onda Dupla)","60×40×30",12,10],["Caixa para Vinho, 4 garrafas","34×34×35",12,10],["Caixa para Vinho, 6 garrafas","34×50×35",15,10],["Caixa Organizadora","40×30×25",7,15],["Caixa Hortifruti / Delivery","48×33×20",5.5,25]];
+var money=function(n){return n.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});};
+var GR=[{n:"Caixa Correio / Sedex",d:"Montagem rápida, boa para envios e kits."},{n:"Caixa Arquivo Morto",d:"Para guardar e organizar documentos."},{n:"Caixa tipo Maleta",d:"A caixa clássica de envio e estoque."},{n:"Caixa para Vinho",d:"Com divisórias para proteger as garrafas."},{n:"Caixa Organizadora",d:"Tampa e fundo, abre e fecha quando precisar."},{n:"Caixa Hortifruti / Delivery",d:"Aberta, para hortifruti e delivery."}];
+function grp(n){return /Sedex/.test(n)?0:/Arquivo/.test(n)?1:/Maleta/.test(n)?2:/Vinho/.test(n)?3:/Organizadora/.test(n)?4:5;}
+var ptb=document.getElementById('ptb');
+PROD.forEach(function(p,i){
+  var tr=document.createElement('tr');tr.dataset.g=grp(p[0]);
+  tr.innerHTML='<td>'+p[0]+'</td><td class="m">'+p[1]+' cm</td><td><b>'+money(p[2])+'</b></td><td class="pk">'+p[3]+'</td><td><input type="number" min="0" step="'+p[3]+'" value="0" inputmode="numeric" aria-label="Quantidade de '+p[0]+'" data-i="'+i+'"></td><td class="sub" id="sub'+i+'">&mdash;</td>';
+  ptb.appendChild(tr);
+});
+/* ilustrações isométricas das caixas */
+function art(k){
+  var L=[],Ln=[],P=function(x,y,z){return [(x-y)*.866,(x+y)*.5-z];};
+  function poly(p,f){L.push({p:p,f:f});}
+  function prism(a,b,c,w,d,h,t){
+    poly([P(a,b,c+h),P(a+w,b,c+h),P(a+w,b+d,c+h),P(a,b+d,c+h)],t||'#e0bb88');
+    poly([P(a,b+d,c+h),P(a+w,b+d,c+h),P(a+w,b+d,c),P(a,b+d,c)],'#c79d66');
+    poly([P(a+w,b,c+h),P(a+w,b+d,c+h),P(a+w,b+d,c),P(a+w,b,c)],'#a77c46');
+  }
+  function flaps(w,d,h,f){
+    poly([P(0,0,h),P(w,0,h),P(w,-f*.35,h+f),P(0,-f*.35,h+f)],'#d3ab74');
+    poly([P(0,0,h),P(0,d,h),P(-f*.35,d,h+f),P(-f*.35,0,h+f)],'#bf945d');
+  }
+  function slotL(a0,a1,y,z0,z1){poly([P(a0,y,z1),P(a1,y,z1),P(a1,y,z0),P(a0,y,z0)],'#4d3716');}
+  function slotR(b0,b1,x,z0,z1){poly([P(x,b0,z1),P(x,b1,z1),P(x,b1,z0),P(x,b0,z0)],'#3f2c11');}
+  var IN='#8e6a3b';
+  if(k===0){poly([P(0,0,.9),P(3,0,.9),P(3,-.5,2.1),P(0,-.5,2.1)],'#e6c595');prism(0,0,0,3,2.2,.9,IN);}
+  if(k===1){prism(0,0,0,2.8,1.6,1.6);slotL(.9,1.9,1.6,1,1.25);slotR(.5,1.1,2.8,1,1.25);}
+  if(k===2){flaps(2,2,2,1.1);prism(0,0,0,2,2,2,IN);}
+  if(k===3){flaps(1.6,1.6,2.8,1.1);prism(0,0,0,1.6,1.6,2.8,IN);Ln.push([P(.8,0,2.8),P(.8,1.6,2.8)],[P(0,.8,2.8),P(1.6,.8,2.8)]);}
+  if(k===4){prism(0,0,0,2.6,1.8,1.3);prism(-.1,-.1,1.3,2.8,2,.55,'#ead0a6');slotL(.9,1.7,1.9,1.45,1.7);}
+  if(k===5){prism(0,0,0,3,2.2,.9,IN);slotL(1,2,2.2,.3,.6);slotR(.7,1.5,3,.3,.6);}
+  var xs=[],ys=[];
+  L.forEach(function(o){o.p.forEach(function(q){xs.push(q[0]);ys.push(q[1]);});});
+  var x0=Math.min.apply(null,xs),x1=Math.max.apply(null,xs),y0=Math.min.apply(null,ys),y1=Math.max.apply(null,ys);
+  var sc=Math.min(136/(x1-x0),100/(y1-y0)),tx=80-(x0+x1)/2*sc,ty=58-(y0+y1)/2*sc;
+  var T=function(q){return (q[0]*sc+tx).toFixed(1)+','+(q[1]*sc+ty).toFixed(1);};
+  var out='<svg viewBox="0 0 160 120" aria-hidden="true"><ellipse cx="80" cy="'+(y1*sc+ty+3).toFixed(1)+'" rx="'+((x1-x0)*sc*.42).toFixed(1)+'" ry="4" fill="rgba(18,48,78,.14)"/>';
+  L.forEach(function(o){out+='<polygon points="'+o.p.map(T).join(' ')+'" fill="'+o.f+'" stroke="#6d4d22" stroke-width="1.2" stroke-linejoin="round"/>';});
+  Ln.forEach(function(l){out+='<polyline points="'+T(l[0])+' '+T(l[1])+'" stroke="#5a3f18" stroke-width="1.2" fill="none"/>';});
+  return out+'</svg>';
+}
+var pgrid=document.getElementById('pgrid');
+GR.forEach(function(g,k){
+  var it=PROD.filter(function(p){return grp(p[0])===k;}),min=Math.min.apply(null,it.map(function(p){return p[2];}));
+  var b=document.createElement('button');b.type='button';b.className='pc';
+  b.innerHTML='<span class="art">'+art(k)+'</span><h3>'+g.n+'</h3><p>'+g.d+'</p><span class="pr">'+it.length+(it.length>1?' tamanhos':' tamanho')+', a partir de '+money(min)+'</span><span class="go">Escolher tamanhos</span>';
+  b.addEventListener('click',function(){
+    var rows=ptb.querySelectorAll('tr[data-g="'+k+'"]');
+    rows[0].scrollIntoView({behavior:'smooth',block:'center'});
+    rows.forEach(function(r){r.classList.add('hl');});
+    rows[0].querySelector('input').focus({preventScroll:true});
+    setTimeout(function(){rows.forEach(function(r){r.classList.remove('hl');});},3500);
+  });
+  pgrid.appendChild(b);
+});
+function calc(){
+  var total=0,lines=[];
+  ptb.querySelectorAll('input').forEach(function(inp){
+    var i=+inp.dataset.i,q=Math.max(0,parseInt(inp.value,10)||0),sub=q*PROD[i][2];
+    document.getElementById('sub'+i).textContent=q?money(sub):'\u2014';
+    if(q){total+=sub;lines.push(q+"x "+PROD[i][0]+" ("+PROD[i][1]+" cm) = "+money(sub));}
+  });
+  document.getElementById('ptot').textContent=money(total);
+  return {lines:lines,total:total};
+}
+ptb.addEventListener('input',calc);
+ptb.addEventListener('change',function(e){ // ajusta para múltiplo do pacote
+  var inp=e.target,i=+inp.dataset.i,q=parseInt(inp.value,10)||0;
+  if(q>0&&q%PROD[i][3]) inp.value=Math.ceil(q/PROD[i][3])*PROD[i][3];
+  calc();
+});
+function pedido(){
+  var g=function(id){return document.getElementById(id).value.trim();},err=document.getElementById('perr'),o=calc();
+  var req=['p-nome','p-tel','p-rua','p-cidade','p-uf','p-cep'],bad=null;
+  req.forEach(function(id){var el=document.getElementById(id);el.style.borderColor='';if(!el.value.trim()){el.style.borderColor='#c0392b';bad=bad||el;}});
+  if(bad){err.textContent='Preencha os campos obrigatórios marcados com *.';bad.focus();return null;}
+  if(!o.lines.length){err.textContent='Escolha a quantidade de pelo menos um produto.';return null;}
+  err.textContent='';
+  track('pedido_pronta_entrega');
+  return "PEDIDO PRONTA ENTREGA\n\nCliente: "+g('p-nome')+"\nTelefone: "+g('p-tel')+(g('p-email')?"\nE-mail: "+g('p-email'):"")+(g('p-doc')?"\nCPF/CNPJ: "+g('p-doc'):"")+
+    "\n\nEntrega: "+g('p-rua')+(g('p-bairro')?", "+g('p-bairro'):"")+", "+g('p-cidade')+"/"+g('p-uf').toUpperCase()+", CEP "+g('p-cep')+
+    "\n\nItens:\n"+o.lines.join("\n")+"\n\nTotal estimado: "+money(o.total);
+}
+document.getElementById('pwa').addEventListener('click',function(){var m=pedido();if(m)window.open(waLink('default',m),'_blank','noopener');});
+document.getElementById('pmail').addEventListener('click',function(){var m=pedido();if(m)location.href="mailto:"+EMAIL+"?subject="+encodeURIComponent("Pedido pronta entrega - site")+"&body="+encodeURIComponent(m);});
+document.getElementById('ano').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
